@@ -1,8 +1,23 @@
-h1 {color: black;
+.root{
+    --background-color--: #fffeef;
+    --brand-color--:#001e02;
+    --light-accent--: #EDFF94;
+    --dark-accent--: #640090;
+}
+
+
+.nav-link {color: black;
+    font-size: 20px;}
+    
+    .navbar-brand {padding-left: 20px;
+    padding-right: 20px;}
+    
+
+ h1 {color: black;
     font-family: "Amatic SC", sans-serif;
     font-weight: 700;
     font-style: normal;
-    font-size: 500px;
+    font-size: 150px;
       }
     
   
@@ -14,11 +29,10 @@ font-style: normal;}
 
 body {background-color: #fffeef;}
 
-.nav-link {color: black;
-font-size: 20px;}
+.hero {text-align: center;}
 
-.navbar-brand {padding-left: 20px;
-padding-right: 20px;}
+
+/* fonts */
 
 .amatic-sc-regular {
     font-family: "Amatic SC", sans-serif;
