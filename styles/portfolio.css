@@ -1,8 +1,10 @@
-.root{
+:root{
     --background-color--: #fffeef;
     --brand-color--:#001e02;
     --light-accent--: #EDFF94;
     --dark-accent--: #640090;
+    --heading-font--:"Amatic SC", sans-serif;
+    --paragraph-font--:"Lato", sans-serif;
 }
 
 
@@ -14,7 +16,7 @@
     
 
  h1 {color: black;
-    font-family: "Amatic SC", sans-serif;
+    font-family: var(--heading-font--);
     font-weight: 700;
     font-style: normal;
     font-size: 150px;
@@ -22,7 +24,7 @@
     
   
 h2 { 
-font-family: "Lato", sans-serif;
+font-family: var(--paragraph-font--);
 font-weight: 300;
 font-style: normal;}     
 
