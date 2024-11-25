@@ -57,12 +57,12 @@ margin-top: 100px;}
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
-  transition: transform 0.3s ease; /* Adds a zoom effect */
+  transition: transform 0.3s ease; 
 }
 
 
-/* Circle Button Styling */
-.circle-button {
+
+.circle-button1, .circle-button2, .circle-button3 {
   position: relative;
   width: 300px;
   height: 300px;
@@ -76,9 +76,18 @@ margin-top: 100px;}
 }
 
 
-.circle-button:hover .circle-image {
-  transform: scale(1.1); /* Slight zoom on hover */
+.circle-button1:hover .circle-image {
+  transform: scale(1.1); 
 }
+
+.circle-button2:hover .circle-image {
+  transform: scale(1.1); 
+}
+
+.circle-button3:hover .circle-image {
+  transform: scale(1.1); 
+}
+
 
 .circle-text {
   position: absolute;
@@ -90,30 +99,73 @@ margin-top: 100px;}
   font-size: 80px;
   font-weight: bold;
   opacity: 0;
-  transition: opacity 0.3s ease; /* Smooth fade-in on hover */
-  z-index: 2; /* Ensures text appears on top */
+  transition: opacity 0.3s ease; 
+  z-index: 2; 
 }
 
-.circle-button::after {
+.circle-button1::after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #001e02;
+  background-color: var(--brand-color--);
   opacity: 0;
   border-radius: 50%;
-  transition: opacity 0.3s ease; /* Smooth fade-in of overlay */
-  z-index: 1; /* Places overlay above image, below text */
+  transition: opacity 0.3s ease; 
+  z-index: 1;
 }
 
-.circle-button:hover::after {
-  opacity: 0.7; /* Overlay appears on hover */
+.circle-button2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--light-accent--);
+  opacity: 0;
+  border-radius: 50%;
+  transition: opacity 0.3s ease; 
+  z-index: 1;
 }
 
-.circle-button:hover .circle-text {
-  opacity: 1; /* Text appears on hover */
+.circle-button3::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--dark-accent--);
+  opacity: 0;
+  border-radius: 50%;
+  transition: opacity 0.3s ease; 
+  z-index: 1;
+}
+
+.circle-button1:hover::after {
+  opacity: 0.7; 
+}
+
+.circle-button2:hover::after {
+  opacity: 0.7; 
+}
+.circle-button3:hover::after {
+  opacity: 0.7; 
+}
+
+.circle-button1:hover .circle-text {
+  opacity: 1; 
+}
+
+.circle-button2:hover .circle-text {
+  opacity: 1; 
+  color: #001e02;
+}
+.circle-button3:hover .circle-text {
+  opacity: 1; 
 }
 
 
