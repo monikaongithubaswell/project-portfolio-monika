@@ -174,6 +174,20 @@ margin-top: 100px;}
 }
 
 
+
+    /* about me  */
+    .btn-brand {
+        color: #001e02; /* Text color */
+        border-color: #001e02; /* Border color */
+    }
+
+    .btn-brand:hover {
+        color: #ffffff; /* Text color on hover */
+        background-color: #001e02; /* Background color on hover */
+        border-color: #001e02; /* Keep the same border color */
+    }
+
+
 /* fonts */
 
 .amatic-sc-regular {
