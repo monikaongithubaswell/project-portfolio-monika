@@ -197,7 +197,7 @@ margin-top: 100px;}
       }
 
       .small-carousel {
-        max-width: 600px; /* Adjust the width */
+        max-width: 500px; /* Adjust the width */
         max-height: auto; /* Adjust the height */
         margin: 0 auto; /* Center the carousel */
       }
@@ -210,8 +210,18 @@ margin-top: 100px;}
         height: 100%; /* Fit the smaller height */
         width: auto; /* Maintain aspect ratio */
         object-fit: cover; /* Ensure images fit neatly */
+        display: block;
       }
-      
+      .btn-brand-2 {
+        color: var(--dark-accent--); /* Text color */
+        border-color: var(--dark-accent--); /* Border color */
+    }
+
+    .btn-brand-2:hover {
+        color: #ffffff; /* Text color on hover */
+        background-color: var(--dark-accent--); /* Background color on hover */
+        border-color: var(--dark-accent--); /* Keep the same border color */
+    }
     
 /* fonts */
 
