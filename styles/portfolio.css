@@ -23,11 +23,12 @@
       }
     
   
-h2 { 
+h3 { 
 font-family: var(--paragraph-font--);
 font-weight: 300;
 font-style: normal;
-margin-top: 50px;}     
+margin-top: 50px;
+font-size: 40px;}     
 
 
 body {background-color: var(--background-color--)}
@@ -186,8 +187,32 @@ margin-top: 100px;}
         background-color: #001e02; /* Background color on hover */
         border-color: #001e02; /* Keep the same border color */
     }
+   /* my work */
 
+   h2 {color: black;
+    font-family: var(--heading-font--);
+    font-weight: 700;
+    font-style: normal;
+    font-size: 90px;
+      }
 
+      .small-carousel {
+        max-width: 600px; /* Adjust the width */
+        max-height: auto; /* Adjust the height */
+        margin: 0 auto; /* Center the carousel */
+      }
+      
+      .small-carousel .carousel-inner {
+        height: auto; /* Match the height */
+      }
+      
+      .small-carousel .carousel-item img {
+        height: 100%; /* Fit the smaller height */
+        width: auto; /* Maintain aspect ratio */
+        object-fit: cover; /* Ensure images fit neatly */
+      }
+      
+    
 /* fonts */
 
 .amatic-sc-regular {
