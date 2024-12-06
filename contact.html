@@ -51,9 +51,30 @@
         </div>
     </nav>
 
-<div class="content-container container">
-    <div class="content">
-        <h1 class="mb-5 justify-content-center mt-4">Let's get in touch!</h1>
+ <!-- Main Content -->
+ <div class="container text-center py-5">
+    <h1 class="mb-4">Let's get in touch!</h1>
+    <div class="d-flex justify-content-center gap-4 mb-5">
+        <a href="https://www.instagram.com/monika.nrn/" target="_blank" title="Instagram" class="text-dark fs-2">
+            <i class="fa-brands fa-instagram"></i>
+        </a>
+        <a href="mailto:monia.narozna@gmail.com" title="Email" class="text-dark fs-2">
+            <i class="fa-regular fa-envelope"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/monika-narozna-5302a2270/" target="_blank" title="LinkedIn" class="text-dark fs-2">
+            <i class="fa-brands fa-linkedin"></i>
+        </a>
     </div>
+
+    <!-- Contact Form -->
+    <form action="mailto:monia.narozna@gmail.com" method="post" enctype="text/plain" class="mx-auto" style="max-width: 500px;">
+        <div class="mb-3">
+            <input type="email" name="email" class="form-control" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+            <textarea name="message" rows="5" class="form-control" placeholder="Your Message" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-brand-2 w-100">Send</button>
+    </form>
 </div>
 </body>
